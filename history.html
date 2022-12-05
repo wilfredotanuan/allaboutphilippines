@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+<style>
+        body {
+            margin: var(--header-height) 0 0 0;
+            padding-left: 10%;
+            font-family: var(--body-font);
+            font-size: var(--normal-font-size);
+            background-image: url(https://wallpaperaccess.com/full/1971407.jpg);
+            background-size: 110%;
+            background-repeat: no repeat;
+            color: var(--text-color);
+
+}
+.container{
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 150%;
+    left: 70%;
+    overflow: hidden;
+    border: 10px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: -1px 5px 15px black;
+}
+
+.wrapper img{
+    width: 100%;
+    display: inline-grid;
+    animation: slide 16s infinite;
+}
+.strong {
+  background-color: #A9A9A9;
+  border-left: 6px solid #808080;
+  width: 40%;
+}
+.weak{
+  background-color: #A9A9A9;
+  border-left: 6px solid #808080;
+  width: 100%;
+  text-align: center;
+}
+
+</style>
+    </head>
+
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="header">
+            <div class="header__container">
+                <img src="assets/img/logo2.png" alt="logo" class="header__logo">
+
+                <div class="header__toggle">
+                    <i class='bx bx-menu' id="header-toggle"></i>
+                </div>
+
+                <div class="header__date">
+                    <span id='date-time' class="header__input"> </span>
+                    <i class='bx bx-calendar header__icon'></i>
+                </div>
+            </div>
+        </header>
+
+        <!--========== NAV ==========-->
+        <div class="nav" id="navbar">
+            <nav class="nav__container">
+                <div>
+                    <a href="#" class="nav__link nav__logo">
+                        <img src="assets/img/logo1.png">
+                    </a>
+    
+                    <div class="nav__list">
+                        <div class="nav__items">
+                            <a href="home.html" class="nav__link">
+                                <i class='bx bx-home nav__icon' ></i>
+                                <span class="nav__name">Home</span>
+                            </a>
+                            <div class="nav__dropdown">
+                                <a href="history.html" class="nav__link">
+                                    <i class='bx bx-map nav__icon' ></i>
+                                    <span class="nav__name">About Philippines</span>
+                                    <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                                </a>
+
+                                <div class="nav__dropdown-collapse">
+                                    <div class="nav__dropdown-content">
+                                        <a href="history.html" class="nav__dropdown-item">History</a>
+                                        <a href="gande.html" class="nav__dropdown-item">Geography and Environment</a>
+                                        <a href="demographic.html" class="nav__dropdown-item">Demographic</a>
+                                        <a href="culture.html" class="nav__dropdown-item">Culture</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="nav__items">
+                            <div class="nav__dropdown">
+                                <a href="luzon.html" class="nav__link">
+                                    <i class='bx bx-car nav__icon' ></i>
+                                    <span class="nav__name">Tourist Attractions</span>
+                                    <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                                </a>
+
+                                <div class="nav__dropdown-collapse">
+                                    <div class="nav__dropdown-content">
+                                        <a href="luzon.html" class="nav__dropdown-item">Luzon</a>
+                                        <a href="visayas.html" class="nav__dropdown-item">Visayas</a>
+                                        <a href="mindanao.html" class="nav__dropdown-item">Mindanao</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <a href="vidgal.html" class="nav__link">
+                                <i class='bx bx-file nav__icon' ></i>
+                                <span class="nav__name">Video Gallery</span>
+                            </a>
+                            <a href="contactus.html" class="nav__link">
+                                <i class='bx bx-message nav__icon' ></i>
+                                <span class="nav__name">Contact Us</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="index.html" class="nav__link nav__logout">
+                    <i class='bx bx-log-in nav__icon' ></i>
+                    <span class="nav__name">Log In</span>
+                </a>
+            </nav>
+        </div>
+
+        <!--========== CONTENTS ==========-->
+        <main>
+            <section> 
+                <center>
+                    <div class="strong">
+                    <h1> PHILIPPINES </h1> 
+                </div>
+            </center>
+                    <div class="wrapper">
+                        <img src="assets/img/h1.jpg">
+                        <img src="assets/img/h2.jpg">
+                        <img src="assets/img/h3.jpg">
+                        <img src="assets/img/h4.jpg">
+                        <img src="assets/img/h5.jpg">
+                    </div>
+<br>
+
+            
+                <div class = "weak">
+                <p> Philippines, island country of Southeast Asia in the western Pacific Ocean. It is an archipelago consisting of more than 7,000 islands and islets lying about 500 miles (800 km) off the coast of Vietnam. Manila is the capital, but nearby Quezon City is the country’s most-populous city. Both are part of the National Capital Region (Metro Manila), located on Luzon, the largest island. The second largest island of the Philippines is Mindanao, in the southeast.</p>
+
+                <p> The Philippines takes its name from Philip II, who was king of Spain during the Spanish colonization of the islands in the 16th century. Because it was under Spanish rule for 333 years and under U.S. tutelage for a further 48 years, the Philippines has many cultural affinities with the West. It is, for example, the second most-populous Asian country (following India) with English as an official language and one of only two predominantly Roman Catholic countries in Asia (the other being East Timor). Despite the prominence of such Anglo-European cultural characteristics, the peoples of the Philippines are Asian in consciousness and aspiration. </p>
+
+                <p> The country was wracked by political turmoil in the last quarter of the 20th century. After enduring more than a decade of authoritarian rule under Pres. Ferdinand Marcos, the broadly popular People Power movement in 1986 led a bloodless uprising against the regime. The confrontation resulted not only in the ouster and exile of Marcos but also in the restoration of democratic government to the Philippines </p>
+
+                <p> Philippines, officially Republic of the Philippines, Island country, western Pacific Ocean, on an archipelago off the southeast coast of Asia. Area: 114,145 sq mi (295,633 sq km). Population: (2022 est.) 112,917,000. Capital: Manila; other government offices and ministries are located in Quezon City and other Manila suburbs. Filipinos are predominantly of Malay descent, frequently with Chinese and sometimes American or Spanish ancestry. Languages: Filipino (Pilipino) and English (both official); the other main groups are Cebuano, Ilocano, Hiligaynon, and Bicol. Religions: Christianity (predominantly Roman Catholic; also Protestant, other Christians); also Islam. Currency: Philippine piso (peso). The Philippines consist of about 7,100 islands and islets. The two principal islands are Luzon in the north and Mindanao in the south. The Visayan group is in the central Philippines, Mindoro is directly south of Luzon, and Palawan is isolated in the west. The topography is varied; inactive volcanoes and mountain ranges are the main features of most of the larger islands.</p>
+
+                <p> Contemporary Filipinos continue to grapple with a society that is replete with paradoxes, perhaps the most obvious being the presence of extreme wealth alongside tremendous poverty. Rich in resources, the Philippines has the potential to build a strong industrial economy, but the country remains largely agricultural.Especially toward the end of the 20th century, rapid industrial expansion was spurred by a high degree of domestic and foreign investment. That growth, however, simultaneously contributed to severe degradation of the environment. The Philippines also emerged as a regional leader in education during the late 20th century, with a well-established public school and university system, and by the early 21st century the country had one of the highest literacy rates in Asia.</p>
+                
+            </div>
+
+            </section>
+        </main>
+
+        <footer>
+  <a href="history.html"> About Philippines </a> &nbsp
+  <a href="luzon.html"> Tourist Attractions </a> &nbsp
+  <a href="vidgal.html"> Video Gallery </a> &nbsp
+  <a href="contactus.html"> Contact Us </a></p>
+  <a href="login.html"> Login </a> &nbsp
+  
+  <p> Copyright@2022. All Rights Reserved </p>
+</footer>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
